@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getProducts } from "../services/productService";
-//import { createSale, getSales } from "../services/salesService";
+import { createSale, getSales } from "../services/salesService";
 
 export default function Sales(){
   const [products, setProducts] = useState([]);
