@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wings",
+      "description": "Spicy chicken wings",
+      "category": "Food",
+      "price": 50,
+      "quantity": 100
+    },
+    {
+      "name": "Chinese Food",
+      "description": "Spicy hot",
+      "category": "Food",
+      "price": 20,
+      "quantity": 19,
+      "id": "lBB6ufe"
+    }
+  ],
+  "customers": [
+    {
+      "name": "Thato Sekhantso",
+      "email": "sekhantsothato04@gmail.com",
+      "id": 1
+    }
+  ],
+  "sales": [
+    {
+      "productId": null,
+      "quantity": 1,
+      "date": "2025-09-10T17:02:42.770Z",
+      "customerId": null,
+      "id": 1
+    }
+  ]
+}
