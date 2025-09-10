@@ -29,8 +29,6 @@ const handleSell = async (e) => {
       return alert(`Not enough stock. Only ${product.quantity} left.`);
     }
 
-    const res = await createSale(sale.productId, sale.quantity);
-    alert("Sale recorded");
     setSale({ productId: "", quantity: 1 });
 
     setProducts(await getProducts());
